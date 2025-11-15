@@ -1,4 +1,4 @@
-name: Build S20
+name: Build samsung s20
 
 on:
   workflow_call:
@@ -6,8 +6,8 @@ on:
 
 env:
   # Device env
-  DEVICE_NAME : "S20"
-  DEVICE_CODENAME : "SM-G9810"
+  DEVICE_NAME : "samsung "
+  DEVICE_CODENAME : "x1q"
 
   CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu-"
   EXTRA_CMDS : "LD=ld.lld LLVM=1 LLVM_IAS=1"
