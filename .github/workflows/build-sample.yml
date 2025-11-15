@@ -12,8 +12,8 @@ env:
   CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu-"
   EXTRA_CMDS : "LD=ld.lld LLVM=1 LLVM_IAS=1"
 
-  KERNEL_SOURCE : "https://github.com/tuliangming/android_kernel_samsung_sm8250.git"
-  KERNEL_BRANCH : "lineage-22.2"
+  KERNEL_SOURCE : "https://github.com/tuliangming/s20-familly-kernel.git"
+  KERNEL_BRANCH : "sdfat"
 
   CLANG_SOURCE : "https://github.com/llvm/llvm-project/releases/download/llvmorg-19.1.7/LLVM-19.1.7-Linux-X64.tar.xz"
   CLANG_BRANCH : ""
