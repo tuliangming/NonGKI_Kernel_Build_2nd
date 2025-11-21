@@ -13,7 +13,7 @@ env:
   EXTRA_CMDS : "LLVM=1 LLVM_IAS=1"
 
   KERNEL_SOURCE : "https://github.com/tuliangming/android_kernel_samsung_sm8250.git"
-  KERNEL_BRANCH : "lineage-22.2"
+  KERNEL_BRANCH : "lineage-23.0-tsp"
 
   CLANG_SOURCE : "https://raw.githubusercontent.com/Neutron-Toolchains/antman/main/antman"
   CLANG_BRANCH : ""
@@ -83,7 +83,7 @@ env:
   SKIP_PATCH: "false" # Ignore errors found in Patch Debugger.
 
   BUILD_OTHER_CONFIG: "true" # Merge config files.
-  MERGE_CONFIG_FILES: "vendor/x1q.config"
+  MERGE_CONFIG_FILES: "vendor/samsung/x1q.config"
 
   FREE_MORE_SPACE: "false" # if u want get more space, enabled it.
 
