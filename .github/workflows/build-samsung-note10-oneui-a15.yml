@@ -25,7 +25,7 @@ env:
   GCC_32_BRANCH : ""
 
   DEFCONFIG_SOURCE: ""
-  DEFCONFIG_NAME : "vendor/kona-perf_defconfig,vendor/samsung/x1q.config"
+  DEFCONFIG_NAME : "vendor/kona-perf_defconfig vendor/samsung/x1q.config"
   DEFCONFIG_ORIGIN_IMAGE: ""
   DEFCONFIG_FROM_BOOT: false
 
