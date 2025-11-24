@@ -9,7 +9,7 @@ env:
   DEVICE_NAME : "samsung_S20"
   DEVICE_CODENAME : "x1q"
 
-  CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu-"
+  CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu- defconfig"
   EXTRA_CMDS : "LLVM=1 LLVM_IAS=1"
 
   KERNEL_SOURCE : "https://github.com/LineageOS/android_kernel_samsung_sm8250"
