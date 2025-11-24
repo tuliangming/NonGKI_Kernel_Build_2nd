@@ -9,8 +9,9 @@ env:
   DEVICE_NAME : "samsung_S20"
   DEVICE_CODENAME : "x1q"
 
-  CUSTOM_CMDS : "CLANG_TRIPLE=aarch64-linux-gnu- defconfig"
-  EXTRA_CMDS : "LLVM=1 LLVM_IAS=1"
+  # 核心修改：添加 ARCH=arm64 指定目标架构（解决 w0 寄存器识别问题）
+  CUSTOM_CMDS : "ARCH=arm64 CLANG_TRIPLE=aarch64-linux-gnu- defconfig"
+  EXTRA_CMDS : "ARCH=arm64 LLVM=1 LLVM_IAS=1"
 
   KERNEL_SOURCE : "https://github.com/LineageOS/android_kernel_samsung_sm8250"
   KERNEL_BRANCH : "lineage-23.0"
